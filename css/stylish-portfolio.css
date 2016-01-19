@@ -58,8 +58,10 @@ body {
     width:90%;
     height:90%;
     position: absolute;
-    left: auto;
-    top: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: -50%;
+    margin-top: -50%;
 }
 
 /* Custom Button Styles */
