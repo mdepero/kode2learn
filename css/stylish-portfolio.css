@@ -28,14 +28,20 @@ body {
     font-weight: 700;
 }
 
-@media(max-width:991px){
+@media(max-width:767px){
     .text-vertical-center h1 {
+        font-size: 3em;
+    }
+    .text-vertical-center h2 {
         font-size: 2.5em;
     }
 }
-@media(min-width:992px){
+@media(min-width:768px){
     .text-vertical-center h1 {
         font-size: 6em;
+    }
+    .text-vertical-center h2 {
+        font-size: 4em;
     }
 }
 
