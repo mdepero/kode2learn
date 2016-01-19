@@ -7,7 +7,7 @@
     // Opens the sidebar menu
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
+        $("#sidebar-wrapper").toggleClass("active", true);
     });
 
     $("#wrapper").bind('touchstart mousedown', function(e) {
