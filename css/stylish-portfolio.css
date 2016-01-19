@@ -269,6 +269,14 @@ hr.small {
     margin: 10px;
 }
 
+/* Contact */
+.contact tr{
+    margin-bottom: 6px;
+}
+.contact td{
+    font-size: 1.2em;
+}
+
 /* Map */
 
 .map {
