@@ -10,7 +10,7 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
-    $("body").click(function(e) {
+    $("#wrapper").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active", false);
     });
