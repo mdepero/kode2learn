@@ -10,6 +10,11 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
+    $("body").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active", false);
+    });
+
     // Scrolls to the selected menu item on the page
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
