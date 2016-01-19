@@ -10,7 +10,7 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
-    $("#wrapper").mousedown(function(e) {
+    $("#wrapper").bind('touchstart mousedown', function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active", false);
     });
