@@ -10,7 +10,7 @@
         $("#sidebar-wrapper").toggleClass("active");
     });
 
-    $("#wrapper").click(function(e) {
+    $("#wrapper").mousedown(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active", false);
     });
