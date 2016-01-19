@@ -39,20 +39,37 @@ p{
 }
 
 @media(max-width:767px){
-    .text-vertical-center h1 {
+    .header h1 {
         font-size: 3em;
     }
-    .text-vertical-center h2 {
+    .header h2 {
+        font-size: 2.5em;
+    }
+    .callout h1 {
+        font-size: 3em;
+    }
+    .callout h2 {
         font-size: 2.5em;
     }
 }
 @media(min-width:768px){
-    .text-vertical-center h1 {
+    .header h1 {
         font-size: 6em;
     }
-    .text-vertical-center h2 {
+    .header h2 {
         font-size: 4em;
     }
+}
+@media(min-width:992px){
+    .callout h1 {
+        font-size: 6em;
+    }
+    .callout h2 {
+        font-size: 4em;
+    }
+}
+@media(min-width:1200px){
+
 }
 
 
