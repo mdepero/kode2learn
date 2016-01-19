@@ -270,11 +270,9 @@ hr.small {
 }
 
 /* Contact */
-.contact tr{
-    margin-bottom: 6px;
-}
 .contact td{
     font-size: 1.2em;
+    padding-bottom: 6px;
 }
 
 /* Map */
