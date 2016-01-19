@@ -3,24 +3,24 @@
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close hidden-sm hidden-xs" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="menu-close hidden-sm hidden-xs" href="javascript:;" onclick = "javascript:closeMenu();" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Kode2Learn</a>
+                <a href="#top"  onclick = "javascript:closeMenu();" >Kode2Learn</a>
             </li>
             <!--<li>
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
             </li>-->
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#about" onclick = "javascript:closeMenu();"; >About</a>
             </li>
             <li>
-                <a href="#values" onclick = $("#menu-close").click(); >Values</a>
+                <a href="#values" onclick = "javascript:closeMenu();" >Values</a>
             </li>
             <li>
-                <a href="#schedule" onclick = $("#menu-close").click(); >Schedule</a>
+                <a href="#schedule" onclick = "javascript:closeMenu();" >Schedule</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#contact" onclick = "javascript:closeMenu();" >Contact</a>
             </li>
         </ul>
     </nav>
