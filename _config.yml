@@ -1,8 +1,0 @@
-name: Kode2Learn | Miami University
-description: Kode2Learn is a student organization at Miami University in Oxford Ohio. We organize and run events for kids in the Oxford area that promote teamwork and problem solving through the use of computer programming. 
-baseurl: /kode2learn
-
-url: "http://localhost:4000"
-
-paginate: 10
-
