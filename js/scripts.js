@@ -11,7 +11,7 @@
     });
 
     $("#wrapper").bind('touchstart mousedown', function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active", false);
     });
 
