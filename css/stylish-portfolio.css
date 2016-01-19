@@ -39,37 +39,26 @@ p{
 }
 
 @media(max-width:767px){
-    .header h1 {
+    .text-vertical-center h1 {
         font-size: 3em;
     }
-    .header h2 {
-        font-size: 2.5em;
-    }
-    .callout h1 {
-        font-size: 3em;
-    }
-    .callout h2 {
+    .text-vertical-center h2 {
         font-size: 2.5em;
     }
 }
 @media(min-width:768px){
-    .header h1 {
+    .text-vertical-center h1 {
         font-size: 6em;
     }
-    .header h2 {
+    .text-vertical-center h2 {
         font-size: 4em;
     }
 }
 @media(min-width:992px){
-    .callout h1 {
-        font-size: 6em;
-    }
-    .callout h2 {
-        font-size: 4em;
-    }
+
 }
 @media(min-width:1200px){
-
+    
 }
 
 
